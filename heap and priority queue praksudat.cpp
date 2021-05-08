@@ -79,10 +79,10 @@ int removeMin() {
 
 	int l = 0;
 	int h = 1;
-	if (bayu.tail == -1) {
+	if (isEmpty()==true) {
 		cout << "data sudah kosong" << endl;
 	}
-	else if (bayu.tail != -1) {
+	else if (isEmpty()!=true) {
 		do {
 			bayu.key[l] = bayu.key[h];
 			bayu.data[l] = bayu.data[h];
@@ -178,7 +178,6 @@ int main() {
 			break;
 		case 4:
 			size();
-
 			_getch();
 			break;
 		case 5:
