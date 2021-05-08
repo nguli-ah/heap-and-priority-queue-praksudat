@@ -119,11 +119,14 @@ void cetak() {
 }
 
 void size() {
+	int panjang;
 	if (isEmpty() == true) {
 		cout << "antrian kosong" << endl;
 	}
 	else {
-		cout << "panjang antrian adalah: " << bayu.tail << endl;
+		panjang = bayu.tail;
+		cout << "panjang antrian adalah: " <<++panjang  << endl;
+		panjang = 0;
 	}
 
 }
