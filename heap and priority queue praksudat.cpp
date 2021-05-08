@@ -1,9 +1,10 @@
 #include "iostream"
 #include "conio.h"
-
 #define max 10
 using namespace std;
-
+//I Putu Gede Bayu Raditya Pratama
+//200030409
+//BD203
 struct queue {
 	int data[max];
 	int head;
